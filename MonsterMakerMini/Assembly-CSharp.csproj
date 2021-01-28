@@ -52,12 +52,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Enumerable.cs" />
-     <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Traverse.cs" />
-     <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Operate.cs" />
-     <Compile Include="Assets\Scenes\CubeWalk.cs" />
-     <Compile Include="Assets\Scripts\GameMain\UseCases\CardUseCase.cs" />
      <Compile Include="Assets\Scripts\GameMain\Vews\CardView.cs" />
+     <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Enumerable.cs" />
+     <Compile Include="Assets\Scenes\CubeWalk.cs" />
+     <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Traverse.cs" />
+     <Compile Include="Assets\Scripts\GameMain\UseCases\CardUseCase.cs" />
+     <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Operate.cs" />
+     <Compile Include="Assets\Scripts\Common\Vews\CommonHeaderView.cs" />
+     <Compile Include="Assets\Scripts\Common\Presenters\CommonHeaderPresenter.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
