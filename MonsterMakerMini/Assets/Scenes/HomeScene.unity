@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 37925412}
   - component: {fileID: 37925414}
   - component: {fileID: 37925413}
+  - component: {fileID: 37925415}
   m_Layer: 5
   m_Name: SpeechBubble
   m_TagString: Untagged
@@ -199,6 +200,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37925411}
   m_CullTransparentMesh: 1
+--- !u!114 &37925415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37925411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8539b6f7376031e43949cd873a143404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speachBubbleText: {fileID: 181121173}
+  speachSpeed: 0.01
 --- !u!1 &57955113
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,7 +387,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -8.954989}
+  m_AnchoredPosition: {x: 0, y: -8.954987}
   m_SizeDelta: {x: -30, y: -17.91002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181121173
@@ -551,6 +566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1222822321}
+  - component: {fileID: 1222822322}
   m_Layer: 0
   m_Name: HomeSceneManager
   m_TagString: Untagged
@@ -572,6 +588,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1222822322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222822320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4cbc6f0a28428d4aaee910d4f5fcfed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speachBubbleView: {fileID: 37925415}
 --- !u!1 &1272331140
 GameObject:
   m_ObjectHideFlags: 0
