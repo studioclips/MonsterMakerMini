@@ -52,6 +52,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Dungeon\Presenters\MapBackPresenter.cs" />
      <Compile Include="Assets\Scripts\Home\Vews\SpeachBubbleView.cs" />
      <Compile Include="Assets\Scripts\Common\Presenters\CommonHeaderPresenter.cs" />
      <Compile Include="Assets\Scripts\GameMain\Vews\CardView.cs" />
@@ -61,11 +62,10 @@
      <Compile Include="Assets\Scripts\CubeWalk.cs" />
      <Compile Include="Assets\Scripts\Home\UseCases\HomeSceneManager.cs" />
      <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Traverse.cs" />
+     <Compile Include="Assets\Scripts\Dungeon\Presenters\MapChipPresenter.cs" />
+     <Compile Include="Assets\Scripts\Dungeon\UseCases\MapChipUseCase.cs" />
      <Compile Include="Assets\Scripts\GameMain\UseCases\CardUseCase.cs" />
      <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Operate.cs" />
-     <Compile Include="Assets\Scripts\Dungeon\UseCases\MapChipUseCase.cs" />
-     <Compile Include="Assets\Scripts\Dungeon\Presenters\MapChipPresenter.cs" />
-     <Compile Include="Assets\Scripts\Dungeon\Presenters\MapBackPresenter.cs" />
      <None Include="Assets\BuiltInResources\Dungeon\Materials\MapChipBack.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

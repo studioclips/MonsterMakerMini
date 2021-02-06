@@ -150,14 +150,14 @@ RectTransform:
   m_GameObject: {fileID: 57955113}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 132675140}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 659}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &57955115
@@ -173,9 +173,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   directionalLight: {fileID: 715608881}
-  mapChipPrefab: {fileID: 7724589476998473771, guid: 43ef02a26ab332b4f8feb227efd6c412, type: 3}
-  openLightSpeed: 0.1
-  fadeOutSpeed: 0.001
+  mapChipPrefab: {fileID: 7618036701529481625, guid: 6f8f6d1eb56660740a4e8f872e72e487, type: 3}
+  openLightSpeed: 0.2
+  fadeOutSpeed: 0.05
 --- !u!114 &57955116
 MonoBehaviour:
   m_ObjectHideFlags: 0

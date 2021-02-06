@@ -14,6 +14,8 @@ public class MapChipView : MonoBehaviour
 
     [SerializeField] private Material mapBackMaterial = null;
 
+    [SerializeField] private SpriteRenderer chipSpriteRenderer = null;
+
     private Action<int> _callback = null;
 
     private int _cardIndex = -1;
@@ -33,7 +35,7 @@ public class MapChipView : MonoBehaviour
     public void SetMapImage(int imageIndex, int cardIndex)
     {
         _cardIndex = cardIndex;
-        GetComponent<SpriteRenderer>().sprite = mapChipLists[imageIndex];
+        chipSpriteRenderer.sprite = mapChipLists[imageIndex];
     }
 
     /// <summary>

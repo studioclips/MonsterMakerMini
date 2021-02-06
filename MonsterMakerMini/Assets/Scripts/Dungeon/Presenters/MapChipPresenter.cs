@@ -56,21 +56,24 @@ public class MapChipPresenter : MonoBehaviour
 
     private IEnumerator OpenAction(MapChipView mapChipView)
     {
+        float alpha = 1.0f;
         //  ディレクショナリライトのIntesity を 0.8 から 20 くらいまで加える
         while (directionalLight.intensity < 20.0f)
         {
-            directionalLight.intensity += openLightSpeed;
+            directionalLight.intensity += 4 * openLightSpeed;
             if (directionalLight.intensity >= 20.0f)
                 directionalLight.intensity = 20.0f;
             yield return null;
         }
-        float alpha = 1.0f;
         while (alpha > 0.0f)
         {
             alpha -= fadeOutSpeed;
             if (alpha <= 0.0f)
                 alpha = 0.0f;
             mapChipView.Alpha = alpha;
+            directionalLight.intensity -= openLightSpeed;
+            if (directionalLight.intensity <= 0.8f)
+                directionalLight.intensity = 0.8f;
             yield return null;
         }
     }

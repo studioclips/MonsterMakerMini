@@ -10,7 +10,12 @@ public class MapChipUseCase : MonoBehaviour
     void Start()
     {
         mapChipPresenter = GetComponent<MapChipPresenter>();
-        mapChipPresenter.AddMapChip(0, 0, 1, TapCard);
+        mapChipPresenter.AddMapChip(0, 100, 0, TapCard);
+        mapChipPresenter.AddMapChip(0, 0, 0, TapCard);
+        // foreach (var i in System.Linq.Enumerable.Range(0,16))
+        // {
+        //     mapChipPresenter.AddMapChip(-270 + (i % 4) * 180, 270 - (i / 4) * 180, i, TapCard);
+        // }
     }
 
     // Update is called once per frame
