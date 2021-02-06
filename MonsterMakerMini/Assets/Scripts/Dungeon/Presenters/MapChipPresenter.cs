@@ -10,13 +10,13 @@ using UnityEngine.Serialization;
 public class MapChipPresenter : MonoBehaviour
 {
     [SerializeField] private Light directionalLight;
-    
+
     [SerializeField] private GameObject mapChipPrefab = null;
 
     [SerializeField] private float openLightSpeed = 0.1f;
 
     [SerializeField] private float fadeOutSpeed = 0.001f;
-    
+
     private List<MapChipView> _mapChipViews = new List<MapChipView>();
 
     /// <summary>
@@ -31,7 +31,7 @@ public class MapChipPresenter : MonoBehaviour
         //  マップチップ生成
         var gobj = gameObject.Add(mapChipPrefab);
         //  指定の座標にセット
-        gobj.GetComponent<RectTransform>().position = new Vector3(x, y, 0);
+        gobj.GetComponent<RectTransform>().localPosition = new Vector3(x, y, 0);
         var mapChipView = gobj.GetComponent<MapChipView>();
         //  タップされたときに返るようにコールバックの登録
         mapChipView.SetClickCallback(callback);

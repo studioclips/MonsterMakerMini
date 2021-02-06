@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2751163513385237574}
   - component: {fileID: 2751163513385237573}
-  - component: {fileID: 5078325795259171860}
-  - component: {fileID: 5852919728734808017}
   m_Layer: 5
   m_Name: MapChip
   m_TagString: Untagged
@@ -89,64 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5078325795259171860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2751163513385237575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d75759fcfe0bc82469364dc3a6314201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mapChipLists:
-  - {fileID: -4787255822339191524, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: -5164583589016112661, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: 4403194035759770139, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: -6050033448283824399, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: -2359096866902407127, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: 4878983338878185929, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: 5622150460556419778, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: -7195332499984104524, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: -2232902925958561583, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: 2496115231846780391, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: 652129319057001402, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: 8540966582843162284, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: -3165003025950263562, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: 6953745540838218777, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: -5372759367864717070, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  - {fileID: 6367862750750595307, guid: dba7497a4d4cddc4b97e787aac2ba5d4, type: 3}
-  mapBackSpriteRenderer: {fileID: 2751163514520670594}
-  mapBackMaterial: {fileID: 2100000, guid: ffb7ee60164bcc645b4aa0eae26a0904, type: 2}
-  chipSpriteRenderer: {fileID: 0}
---- !u!61 &5852919728734808017
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2751163513385237575}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.8, y: 1.8}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.8, y: 1.8}
-  m_EdgeRadius: 0
 --- !u!1 &2751163514520670621
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,6 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4574455188102404982}
   - component: {fileID: -7434354903306166183}
+  - component: {fileID: 2468259791922607501}
   m_Layer: 5
   m_Name: MapChipContainer
   m_TagString: Untagged
@@ -304,3 +245,29 @@ MonoBehaviour:
   mapBackSpriteRenderer: {fileID: 2751163514520670594}
   mapBackMaterial: {fileID: 2100000, guid: ffb7ee60164bcc645b4aa0eae26a0904, type: 2}
   chipSpriteRenderer: {fileID: 2751163513385237573}
+--- !u!61 &2468259791922607501
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7618036701529481625}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 180, y: 180}
+  m_EdgeRadius: 0
