@@ -12,23 +12,23 @@ public class DungeonSceneUseCase : MonoBehaviour
     {
         Observable.EveryUpdate()
             .Where(_ => Input.GetKeyDown(KeyCode.LeftArrow))
-            .ThrottleFirst(System.TimeSpan.FromSeconds(1))
-            .Subscribe(_ => _scrollBaseUseCase.ScrollType.Value = ScrollBaseUseCase.ScrollBaseType.Left)
+            // .ThrottleFirst(System.TimeSpan.FromSeconds(1))
+            .Subscribe(_ => _scrollBaseUseCase.scrollType.Value = ScrollBaseUseCase.ScrollBaseType.Left)
             .AddTo(this);
         Observable.EveryUpdate()
             .Where(_ => Input.GetKeyDown(KeyCode.RightArrow))
-            .ThrottleFirst(System.TimeSpan.FromSeconds(1))
-            .Subscribe(_ => _scrollBaseUseCase.ScrollType.Value = ScrollBaseUseCase.ScrollBaseType.Right)
+            // .ThrottleFirst(System.TimeSpan.FromSeconds(1))
+            .Subscribe(_ => _scrollBaseUseCase.scrollType.Value = ScrollBaseUseCase.ScrollBaseType.Right)
             .AddTo(this);
         Observable.EveryUpdate()
             .Where(_ => Input.GetKeyDown(KeyCode.UpArrow))
-            .ThrottleFirst(System.TimeSpan.FromSeconds(1))
-            .Subscribe(_ => _scrollBaseUseCase.ScrollType.Value = ScrollBaseUseCase.ScrollBaseType.Up)
+            // .ThrottleFirst(System.TimeSpan.FromSeconds(1))
+            .Subscribe(_ => _scrollBaseUseCase.scrollType.Value = ScrollBaseUseCase.ScrollBaseType.Up)
             .AddTo(this);
         Observable.EveryUpdate()
             .Where(_ => Input.GetKeyDown(KeyCode.DownArrow))
-            .ThrottleFirst(System.TimeSpan.FromSeconds(1))
-            .Subscribe(_ => _scrollBaseUseCase.ScrollType.Value = ScrollBaseUseCase.ScrollBaseType.Down)
+            // .ThrottleFirst(System.TimeSpan.FromSeconds(1))
+            .Subscribe(_ => _scrollBaseUseCase.scrollType.Value = ScrollBaseUseCase.ScrollBaseType.Down)
             .AddTo(this);
     }
 }

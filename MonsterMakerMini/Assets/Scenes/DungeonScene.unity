@@ -722,9 +722,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d35b12cbb3107b408de2fd72b23e6ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScrollType:
+  scrollType:
     value: 0
-  _scrollMaxSize: 180
+  scrollMaxSize: 180
+  stepDotCount: 600
 --- !u!224 &1973731907
 RectTransform:
   m_ObjectHideFlags: 0
