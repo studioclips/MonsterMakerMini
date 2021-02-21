@@ -65,6 +65,7 @@ public class MapChipPresenter : MonoBehaviour
                 directionalLight.intensity = 20.0f;
             yield return null;
         }
+
         while (alpha > 0.0f)
         {
             alpha -= fadeOutSpeed;
