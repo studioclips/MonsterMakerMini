@@ -1,13 +1,24 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class MapChipView : MonoBehaviour
 {
+    [Serializable]
+    public class SpriteList
+    {
+        public List<Sprite> mapChipLists = new List<Sprite>();
+
+        public SpriteList(List<Sprite> list)
+        {
+            mapChipLists = list;
+        }
+    }
     //  マップチップリスト
-    [SerializeField] private List<Sprite> mapChipLists = new List<Sprite>();
+    [SerializeField] private List<SpriteList> mapChipLists = new List<SpriteList>();
 
     //  背景スプライトレンダラー
     [SerializeField] private SpriteRenderer mapBackSpriteRenderer = null;
@@ -30,12 +41,13 @@ public class MapChipView : MonoBehaviour
     /// <summary>
     /// マップチップに画像を適用
     /// </summary>
+    /// <param name="atlasIndex">適用するアトラス番号</param>
     /// <param name="imageIndex">適用するマップ番号</param>
     /// <param name="cardIndex">リスト登録されたカード番号</param>
-    public void SetMapImage(int imageIndex, int cardIndex)
+    public void SetMapImage(int atlasIndex, int imageIndex, int cardIndex)
     {
         _cardIndex = cardIndex;
-        chipSpriteRenderer.sprite = mapChipLists[imageIndex];
+        chipSpriteRenderer.sprite = mapChipLists[atlasIndex].mapChipLists[imageIndex];
     }
 
     /// <summary>

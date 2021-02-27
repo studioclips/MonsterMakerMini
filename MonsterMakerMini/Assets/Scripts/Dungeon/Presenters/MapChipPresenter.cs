@@ -24,9 +24,10 @@ public class MapChipPresenter : MonoBehaviour
     /// </summary>
     /// <param name="x">X座標</param>
     /// <param name="y">Y座標</param>
+    /// <param name="atlasIndex">選択マップ番号</param>
     /// <param name="imageIndex">イメージ番号</param>
     /// <param name="callback">選択したときのコールバック</param>
-    public void AddMapChip(int x, int y, int imageIndex, Action<int> callback)
+    public void AddMapChip(int x, int y, int atlasIndex, int imageIndex, Action<int> callback)
     {
         //  マップチップ生成
         var gobj = gameObject.Add(mapChipPrefab);
@@ -36,7 +37,7 @@ public class MapChipPresenter : MonoBehaviour
         //  タップされたときに返るようにコールバックの登録
         mapChipView.SetClickCallback(callback);
         //  カードのイメージ番号と通し番号をセット
-        mapChipView.SetMapImage(imageIndex, _mapChipViews.Count);
+        mapChipView.SetMapImage(atlasIndex, imageIndex, _mapChipViews.Count);
         //  リストに追加
         _mapChipViews.Add(mapChipView);
     }
