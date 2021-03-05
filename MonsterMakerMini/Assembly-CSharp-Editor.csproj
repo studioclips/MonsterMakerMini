@@ -53,10 +53,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\AllIn1SpriteShader\Editor\AllIn1SpriteShaderStencil.cs" />
-     <Compile Include="Assets\AllIn1SpriteShader\Editor\AllIn1ShaderScriptEditor.cs" />
-     <Compile Include="Assets\AllIn1SpriteShader\Editor\AllIn1SpriteShader.cs" />
-     <Compile Include="Assets\AllIn1SpriteShader\Editor\AllIn1UrpShader.cs" />
      <Compile Include="Assets\HardLight2D\Editor\HardLight2DEditor.cs" />
+     <Compile Include="Assets\AllIn1SpriteShader\Editor\AllIn1ShaderScriptEditor.cs" />
+     <Compile Include="Assets\AllIn1SpriteShader\Editor\AllIn1UrpShader.cs" />
+     <Compile Include="Assets\AllIn1SpriteShader\Editor\AllIn1SpriteShader.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -306,14 +306,14 @@
  <Reference Include="DemiEditor">
  <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
  </Reference>
+ <Reference Include="HardLight2D">
+ <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/HardLight2D/Scripts/HardLight2D.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween">
  <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenPro">
  <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
- </Reference>
- <Reference Include="HardLight2D">
- <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/HardLight2D/Scripts/HardLight2D.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

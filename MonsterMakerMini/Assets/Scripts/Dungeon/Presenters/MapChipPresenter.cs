@@ -3,9 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UniRx;
 using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
 using Unity.Linq;
-using UnityEngine.Serialization;
 
 public class MapChipPresenter : MonoBehaviour
 {

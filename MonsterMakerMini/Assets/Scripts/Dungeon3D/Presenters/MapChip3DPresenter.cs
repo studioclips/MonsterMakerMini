@@ -15,7 +15,7 @@ public class MapChip3DPresenter : MonoBehaviour
 
     [SerializeField] private float fadeOutSpeed = 0.001f;
 
-    private List<MapChipView> _mapChipViews = new List<MapChipView>();
+    private List<MapChip3DView> _mapChipViews = new List<MapChip3DView>();
 
     /// <summary>
     /// カードの設定
@@ -25,13 +25,13 @@ public class MapChip3DPresenter : MonoBehaviour
     /// <param name="atlasIndex">選択マップ番号</param>
     /// <param name="imageIndex">イメージ番号</param>
     /// <param name="callback">選択したときのコールバック</param>
-    public void AddMapChip(int x, int y, int atlasIndex, int imageIndex, Action<int> callback)
+    public void AddMapChip(float x, float y, int atlasIndex, Vector2Int imageIndex, Action<int> callback)
     {
         //  マップチップ生成
         var gobj = gameObject.Add(mapChipPrefab);
         //  指定の座標にセット
-        gobj.GetComponent<RectTransform>().localPosition = new Vector3(x, y, 0);
-        var mapChipView = gobj.GetComponent<MapChipView>();
+        gobj.transform.localPosition = new Vector3(x, y, 0);
+        var mapChipView = gobj.GetComponent<MapChip3DView>();
         //  タップされたときに返るようにコールバックの登録
         mapChipView.SetClickCallback(callback);
         //  カードのイメージ番号と通し番号をセット
@@ -46,14 +46,14 @@ public class MapChip3DPresenter : MonoBehaviour
     /// <param name="cardIndex">開く対象のカードインデックス</param>
     public void CardOpenAction(int cardIndex)
     {
-        var mapChipView = _mapChipViews[cardIndex];
-        mapChipView.ChangeMaterial();
-        Observable.FromCoroutine(_ => OpenAction(mapChipView))
-            .Subscribe(_ => directionalLight.intensity = 0.8f)
-            .AddTo(this);
+        // var mapChipView = _mapChipViews[cardIndex];
+        // mapChipView.ChangeMaterial();
+        // Observable.FromCoroutine(_ => OpenAction(mapChip3DView))
+        //     .Subscribe(_ => directionalLight.intensity = 0.8f)
+        //     .AddTo(this);
     }
 
-    private IEnumerator OpenAction(MapChipView mapChipView)
+    private IEnumerator OpenAction(MapChip3DView mapChipView)
     {
         float alpha = 1.0f;
         //  ディレクショナリライトのIntesity を 0.8 から 20 くらいまで加える

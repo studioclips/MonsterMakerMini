@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: b96db290a0a77ab47944c6e65745182c
+guid: 75eb763bcf74c6f4f833a3a39070e716
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3476588921068914143
-    second: mapAtrus3D3_0
+      213: 3066464913262141509
+    second: mapAtrus3D2_0
   - first:
-      213: 1227550769939216196
-    second: mapAtrus3D3_1
+      213: 1110117598298983879
+    second: mapAtrus3D2_1
   - first:
-      213: -5576635400917077118
-    second: mapAtrus3D3_2
+      213: -3515094772448717430
+    second: mapAtrus3D2_2
   - first:
-      213: 7249843681304639782
-    second: mapAtrus3D3_3
+      213: 7168550444950397173
+    second: mapAtrus3D2_3
   - first:
-      213: 4564083210476906837
-    second: mapAtrus3D3_4
+      213: 6832183272455828463
+    second: mapAtrus3D2_4
   - first:
-      213: 3286359288913091186
-    second: mapAtrus3D3_5
+      213: -4526932442140599468
+    second: mapAtrus3D2_5
   - first:
-      213: 8288041850305052984
-    second: mapAtrus3D3_6
+      213: 2587354667810814400
+    second: mapAtrus3D2_6
   - first:
-      213: 7544359483027504078
-    second: mapAtrus3D3_7
+      213: -5996105303926865558
+    second: mapAtrus3D2_7
   - first:
-      213: 4135269969854748416
-    second: mapAtrus3D3_8
+      213: -773911240952862329
+    second: mapAtrus3D2_8
   - first:
-      213: 8674294658174938672
-    second: mapAtrus3D3_9
+      213: 7935109258836559397
+    second: mapAtrus3D2_9
   - first:
-      213: -3591446797273968371
-    second: mapAtrus3D3_10
+      213: 6858273889079495783
+    second: mapAtrus3D2_10
   - first:
-      213: -4501411262602384295
-    second: mapAtrus3D3_11
+      213: 7577795382096144650
+    second: mapAtrus3D2_11
   - first:
-      213: 4245215066832026029
-    second: mapAtrus3D3_12
+      213: 4888746091347997385
+    second: mapAtrus3D2_12
   - first:
-      213: -1121811619330716154
-    second: mapAtrus3D3_13
+      213: 5254027866466410563
+    second: mapAtrus3D2_13
   - first:
-      213: 3000528294535232384
-    second: mapAtrus3D3_14
+      213: 6652876102895751247
+    second: mapAtrus3D2_14
   - first:
-      213: 5828321969393102298
-    second: mapAtrus3D3_15
+      213: -3118687001059834784
+    second: mapAtrus3D2_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +89,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -175,7 +175,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mapAtrus3D3_0
+      name: mapAtrus3D2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -189,14 +189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12af0a9cbcca0cfc0800000000000000
-      internalID: -3476588921068914143
+      spriteID: 540603f77954e8a20800000000000000
+      internalID: 3066464913262141509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_1
+      name: mapAtrus3D2_1
       rect:
         serializedVersion: 2
         x: 128
@@ -210,14 +210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 447fbf1ebe2290110800000000000000
-      internalID: 1227550769939216196
+      spriteID: 7cd4581f21ee76f00800000000000000
+      internalID: 1110117598298983879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_2
+      name: mapAtrus3D2_2
       rect:
         serializedVersion: 2
         x: 256
@@ -231,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 283387e26afcb92b0800000000000000
-      internalID: -5576635400917077118
+      spriteID: a859c50adefd73fc0800000000000000
+      internalID: -3515094772448717430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_3
+      name: mapAtrus3D2_3
       rect:
         serializedVersion: 2
         x: 384
@@ -252,14 +252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 629f545ba6e9c9460800000000000000
-      internalID: 7249843681304639782
+      spriteID: 5f0acb926aecb7360800000000000000
+      internalID: 7168550444950397173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_4
+      name: mapAtrus3D2_4
       rect:
         serializedVersion: 2
         x: 0
@@ -273,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 559ecc59f71e65f30800000000000000
-      internalID: 4564083210476906837
+      spriteID: fe37813ec7ac0de50800000000000000
+      internalID: 6832183272455828463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_5
+      name: mapAtrus3D2_5
       rect:
         serializedVersion: 2
         x: 128
@@ -294,14 +294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27a58f38c5e7b9d20800000000000000
-      internalID: 3286359288913091186
+      spriteID: 45b9408bdea1d21c0800000000000000
+      internalID: -4526932442140599468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_6
+      name: mapAtrus3D2_6
       rect:
         serializedVersion: 2
         x: 256
@@ -315,14 +315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8310103a62a050370800000000000000
-      internalID: 8288041850305052984
+      spriteID: 0c9ffcaac5128e320800000000000000
+      internalID: 2587354667810814400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_7
+      name: mapAtrus3D2_7
       rect:
         serializedVersion: 2
         x: 384
@@ -336,14 +336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecb34b36af2f2b860800000000000000
-      internalID: 7544359483027504078
+      spriteID: a618a9baefd89cca0800000000000000
+      internalID: -5996105303926865558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_8
+      name: mapAtrus3D2_8
       rect:
         serializedVersion: 2
         x: 0
@@ -357,14 +357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0075883c02e636930800000000000000
-      internalID: 4135269969854748416
+      spriteID: 789a253a3d38245f0800000000000000
+      internalID: -773911240952862329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_9
+      name: mapAtrus3D2_9
       rect:
         serializedVersion: 2
         x: 128
@@ -378,14 +378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03ee5918809416870800000000000000
-      internalID: 8674294658174938672
+      spriteID: 526cdd234db2f1e60800000000000000
+      internalID: 7935109258836559397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_10
+      name: mapAtrus3D2_10
       rect:
         serializedVersion: 2
         x: 256
@@ -399,14 +399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0155ca8a2e982ec0800000000000000
-      internalID: -3591446797273968371
+      spriteID: 76c8be2f3cb7d2f50800000000000000
+      internalID: 6858273889079495783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_11
+      name: mapAtrus3D2_11
       rect:
         serializedVersion: 2
         x: 384
@@ -420,14 +420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95c64a06e46c781c0800000000000000
-      internalID: -4501411262602384295
+      spriteID: a09af6a40ccb92960800000000000000
+      internalID: 7577795382096144650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_12
+      name: mapAtrus3D2_12
       rect:
         serializedVersion: 2
         x: 0
@@ -441,14 +441,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da9b8a57c980aea30800000000000000
-      internalID: 4245215066832026029
+      spriteID: 9c270eb1ba058d340800000000000000
+      internalID: 4888746091347997385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_13
+      name: mapAtrus3D2_13
       rect:
         serializedVersion: 2
         x: 128
@@ -462,14 +462,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60e03ec96468e60f0800000000000000
-      internalID: -1121811619330716154
+      spriteID: 340ebbce18e0ae840800000000000000
+      internalID: 5254027866466410563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_14
+      name: mapAtrus3D2_14
       rect:
         serializedVersion: 2
         x: 256
@@ -483,14 +483,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08bf74e169404a920800000000000000
-      internalID: 3000528294535232384
+      spriteID: f4059cf2193c35c50800000000000000
+      internalID: 6652876102895751247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapAtrus3D3_15
+      name: mapAtrus3D2_15
       rect:
         serializedVersion: 2
         x: 384
@@ -504,8 +504,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adde74e83fb52e050800000000000000
-      internalID: 5828321969393102298
+      spriteID: 064433032b238b4d0800000000000000
+      internalID: -3118687001059834784
       vertices: []
       indices: 
       edges: []

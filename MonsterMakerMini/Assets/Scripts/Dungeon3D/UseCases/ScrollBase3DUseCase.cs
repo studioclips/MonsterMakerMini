@@ -16,7 +16,7 @@ public class ScrollBase3DUseCase : MonoBehaviour
             return;
         _isActive = true;
         var pos = _scrollPanel.localPosition;
-        pos += new Vector3(moveAddPos.x * 12.8f, moveAddPos.y * 12.8f, 0);
+        pos += new Vector3(moveAddPos.x * 1f, moveAddPos.y * 1f, 0);
         _scrollPanel.DOLocalMove(pos, 0.5f).OnComplete(() => _isActive = false);
     }
 }

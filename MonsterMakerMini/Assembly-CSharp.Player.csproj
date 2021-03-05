@@ -55,37 +55,38 @@
      <Compile Include="Assets\Scripts\Dungeon\Presenters\MapBackPresenter.cs" />
      <Compile Include="Assets\Scripts\Home\Vews\SpeachBubbleView.cs" />
      <Compile Include="Assets\Scripts\Common\Presenters\FadePanelPresenter.cs" />
-     <Compile Include="Assets\Scripts\Dungeon\UseCases\ScrollBase3DUseCase.cs" />
+     <Compile Include="Assets\AllIn1SpriteShader\Scripts\All1CreateUnifiedOutline.cs" />
+     <Compile Include="Assets\Scripts\Dungeon3D\UseCases\ScrollBase3DUseCase.cs" />
      <Compile Include="Assets\Scripts\Common\Presenters\CommonHeaderPresenter.cs" />
+     <Compile Include="Assets\Scripts\Dungeon3D\UseCases\MapChip3DUseCase.cs" />
      <Compile Include="Assets\Scripts\Dungeon\Vews\MapChipView.cs" />
      <Compile Include="Assets\Scripts\Dungeon\UseCases\DungeonSceneUseCase.cs" />
      <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Enumerable.cs" />
      <Compile Include="Assets\Scripts\Common\Vews\CommonHeaderView.cs" />
      <Compile Include="Assets\Scripts\Dungeon\Presenters\ScrollBasePresenter.cs" />
+     <Compile Include="Assets\AllIn1SpriteShader\Scripts\SetAtlasUvs.cs" />
      <Compile Include="Assets\Scripts\Home\UseCases\HomeSceneManager.cs" />
-     <Compile Include="Assets\Scripts\Dungeon\UseCases\DungeonScene3DUseCase.cs" />
+     <Compile Include="Assets\Scripts\Dungeon3D\UseCases\DungeonScene3DUseCase.cs" />
      <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Traverse.cs" />
      <Compile Include="Assets\Scripts\Dungeon\Models\DungeonMapModel.cs" />
-     <Compile Include="Assets\Scripts\Dungeon\Presenters\MapChip3DPresenter.cs" />
+     <Compile Include="Assets\Scripts\Dungeon3D\UseCases\DungeonMap3DUseCase.cs" />
+     <Compile Include="Assets\AllIn1SpriteShader\Scripts\AllIn1ShaderWindow.cs" />
+     <Compile Include="Assets\AllIn1SpriteShader\Scripts\AllIn1Shader.cs" />
+     <Compile Include="Assets\Scripts\Dungeon3D\Presenters\MapChip3DPresenter.cs" />
      <Compile Include="Assets\Scripts\Dungeon\Presenters\MapChipPresenter.cs" />
      <Compile Include="Assets\Scripts\Dungeon\UseCases\MapChipUseCase.cs" />
+     <Compile Include="Assets\AllIn1SpriteShader\Scripts\RandomSeed.cs" />
      <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Operate.cs" />
      <Compile Include="Assets\Scripts\Dungeon\Models\DungeonRegistry.cs" />
      <Compile Include="Assets\Scripts\Dungeon\UseCases\ScrollBaseUseCase.cs" />
      <Compile Include="Assets\Scripts\Dungeon\UseCases\DungeonMapUseCase.cs" />
-     <Compile Include="Assets\AllIn1SpriteShader\Scripts\SetAtlasUvs.cs" />
-     <Compile Include="Assets\AllIn1SpriteShader\Scripts\AllIn1ShaderWindow.cs" />
-     <Compile Include="Assets\AllIn1SpriteShader\Scripts\All1CreateUnifiedOutline.cs" />
-     <Compile Include="Assets\AllIn1SpriteShader\Scripts\RandomSeed.cs" />
      <Compile Include="Assets\AllIn1SpriteShader\Scripts\SetGlobalTime.cs" />
-     <Compile Include="Assets\AllIn1SpriteShader\Scripts\AllIn1Shader.cs" />
+     <Compile Include="Assets\Scripts\Dungeon3D\Vews\MapChip3DView.cs" />
+     <Compile Include="Assets\Scripts\Dungeon3D\UseCases\Test.cs" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShader.shader" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShaderScaledTime.shader" />
-     <None Include="Assets\BuiltInResources\Dungeon\Materials\NewImageEffectShader.shader" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShaderUiMask.shader" />
-     <None Include="Assets\BuiltInResources\Dungeon\Materials\NewUnlitShader.shader" />
      <None Include="Assets\BuiltInResources\Dungeon\Materials\MapChipBack.shader" />
-     <None Include="Assets\BuiltInResources\Dungeon\Materials\NewSurfaceShader.shader" />
      <None Include="Assets\HardLight2D\Material\AdditiveShader.shader" />
      <None Include="Assets\Resources\tmap.txt" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1OneShaderFunctions.cginc" />
@@ -344,14 +345,14 @@
  <Reference Include="DemiLib">
  <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
  </Reference>
+ <Reference Include="HardLight2D">
+ <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/HardLight2D/Scripts/HardLight2D.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween">
  <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenPro">
  <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
- </Reference>
- <Reference Include="HardLight2D">
- <HintPath>D:/Unity/MonsterMakerMini/MonsterMakerMini/Assets/HardLight2D/Scripts/HardLight2D.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
