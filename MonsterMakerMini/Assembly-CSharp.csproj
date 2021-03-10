@@ -76,13 +76,13 @@
      <Compile Include="Assets\Scripts\Dungeon\Presenters\MapChipPresenter.cs" />
      <Compile Include="Assets\Scripts\Dungeon\UseCases\MapChipUseCase.cs" />
      <Compile Include="Assets\AllIn1SpriteShader\Scripts\RandomSeed.cs" />
+     <Compile Include="Assets\Scripts\Dungeon3D\UseCases\Test.cs" />
      <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Operate.cs" />
      <Compile Include="Assets\Scripts\Dungeon\Models\DungeonRegistry.cs" />
+     <Compile Include="Assets\Scripts\Dungeon3D\Vews\MapChip3DView.cs" />
      <Compile Include="Assets\Scripts\Dungeon\UseCases\ScrollBaseUseCase.cs" />
      <Compile Include="Assets\Scripts\Dungeon\UseCases\DungeonMapUseCase.cs" />
      <Compile Include="Assets\AllIn1SpriteShader\Scripts\SetGlobalTime.cs" />
-     <Compile Include="Assets\Scripts\Dungeon3D\Vews\MapChip3DView.cs" />
-     <Compile Include="Assets\Scripts\Dungeon3D\UseCases\Test.cs" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShader.shader" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShaderScaledTime.shader" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShaderUiMask.shader" />
