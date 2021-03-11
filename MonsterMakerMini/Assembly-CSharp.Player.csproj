@@ -83,6 +83,8 @@
      <Compile Include="Assets\Scripts\Dungeon\UseCases\ScrollBaseUseCase.cs" />
      <Compile Include="Assets\Scripts\Dungeon\UseCases\DungeonMapUseCase.cs" />
      <Compile Include="Assets\AllIn1SpriteShader\Scripts\SetGlobalTime.cs" />
+     <Compile Include="Assets\Scripts\Battle\UseCases\BattleCardManager.cs" />
+     <Compile Include="Assets\Scripts\Battle\UseCases\BattleSceneManager.cs" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShader.shader" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShaderScaledTime.shader" />
      <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShaderUiMask.shader" />

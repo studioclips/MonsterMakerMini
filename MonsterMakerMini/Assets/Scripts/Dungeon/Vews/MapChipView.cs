@@ -1,9 +1,7 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class MapChipView : MonoBehaviour
 {
@@ -21,11 +19,11 @@ public class MapChipView : MonoBehaviour
     [SerializeField] private List<SpriteList> mapChipLists = new List<SpriteList>();
 
     //  背景スプライトレンダラー
-    [SerializeField] private SpriteRenderer mapBackSpriteRenderer = null;
+    [SerializeField] private Image mapBackImage = null;
 
     [SerializeField] private Material mapBackMaterial = null;
 
-    [SerializeField] private SpriteRenderer chipSpriteRenderer = null;
+    [SerializeField] private Image chipImage = null;
 
     private Action<int> _callback = null;
 
@@ -34,8 +32,8 @@ public class MapChipView : MonoBehaviour
     /// スプライトのアルファ値をセットする
     public float Alpha
     {
-        get { return mapBackSpriteRenderer.color.a; }
-        set { mapBackSpriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, value); }
+        get { return mapBackImage.color.a; }
+        set { mapBackImage.color = new Color(1.0f, 1.0f, 1.0f, value); }
     }
     
     /// <summary>
@@ -47,7 +45,7 @@ public class MapChipView : MonoBehaviour
     public void SetMapImage(int atlasIndex, int imageIndex, int cardIndex)
     {
         _cardIndex = cardIndex;
-        chipSpriteRenderer.sprite = mapChipLists[atlasIndex].mapChipLists[imageIndex];
+        chipImage.sprite = mapChipLists[atlasIndex].mapChipLists[imageIndex];
     }
 
     /// <summary>
@@ -55,7 +53,7 @@ public class MapChipView : MonoBehaviour
     /// </summary>
     public void ChangeMaterial()
     {
-        mapBackSpriteRenderer.material = mapBackMaterial;
+        mapBackImage.material = mapBackMaterial;
     }
 
     /// <summary>

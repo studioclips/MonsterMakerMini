@@ -16,6 +16,8 @@ public class ScrollBaseUseCase : MonoBehaviour
     }
 
     private readonly Vector2[] _scrollAddTables = {new Vector2(-1, 0), new Vector2(0, 1), new Vector2(1, 0), new Vector2(0, -1)};
+    
+    [SerializeField]
     private RectTransform _scrollBaseRect = null;
 
     public ReactiveProperty<ScrollBaseType> scrollType = new ReactiveProperty<ScrollBaseType>(ScrollBaseType.Idle);
@@ -30,7 +32,7 @@ public class ScrollBaseUseCase : MonoBehaviour
     void Start()
     {
         //  移動のための transform 取得
-        _scrollBaseRect = GetComponent<RectTransform>();
+        // _scrollBaseRect = GetComponent<RectTransform>();
         scrollType.Select(x => (int) x - 1)
             .Where(x => x >= 0 && !_isScroll)
             .Subscribe(x =>
